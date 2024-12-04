@@ -69,7 +69,7 @@ VALUES
     -- 2. `王小明` 購買 `21 堂組合包方案`
     -- 3. `好野人` 購買 `14 堂組合包方案`
 
-參考來源: [組合包方案 CREDIT_PACKAGE、客戶購買課程堂數 CREDIT_PURCHASE](https://github.com/happyloa/Hex2024-backend-database-camp/blob/main/migrations/task/sqls/20241021064214-task-up.sql)
+-- 參考來源: [組合包方案 CREDIT_PACKAGE、客戶購買課程堂數 CREDIT_PURCHASE](https://github.com/happyloa/Hex2024-backend-database-camp/blob/main/migrations/task/sqls/20241021064214-task-up.sql)
 INSERT INTO "CREDIT_PURCHASE" (user_id, credit_package_id, purchased_credits, price_paid)
 VALUES
 (

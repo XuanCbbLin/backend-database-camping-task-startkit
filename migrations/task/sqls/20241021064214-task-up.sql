@@ -108,7 +108,7 @@ VALUES
 INSERT INTO "COACH" (user_id, experience_years) VALUES 
 ((select id from "USER" where email = 'lee2000@hexschooltest.io'), 2),
 ((select id from "USER" where email = 'muscle@hexschooltest.io'), 2),
-((select id from "USER" where email = 'starplatinum@hexschooltest.io'), 2)
+((select id from "USER" where email = 'starplatinum@hexschooltest.io'), 2);
 
 -- 3-2. 新增：承1，為三名教練新增專長資料至 `COACH_LINK_SKILL` ，資料需求如下：
     -- 1. 所有教練都有 `重訓` 專長
